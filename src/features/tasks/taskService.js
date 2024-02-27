@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api/tasks';
+const API_URL = 'https://nadetdevtodoappbackend-ft8g8scl.b4a.run/api/tasks';
 
 const createTask = async (taskData, token) => {
   const httpHeaders = {
