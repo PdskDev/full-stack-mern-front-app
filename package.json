@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "http://localhost:8000",
+  "proxy": "https://nadetdevtodoappbackend-ft8g8scl.b4a.run",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -54,8 +54,8 @@
     "babel-jest": "^29.7.0"
   },
   "jest": {
-    "transform":{
-      "^.+\\.jsx?$":"babel-jest"
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
     },
     "transformIgnorePatterns": [
       "node_modules/(?!axios)/"
